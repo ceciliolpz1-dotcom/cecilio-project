@@ -3,138 +3,329 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="color-scheme" content="dark" />
-    <title>Cecilio Lopez</title>
+    <meta name="color-scheme" content="light" />
+    <title>Cecilio Lopez | Educator &amp; Formation</title>
     <meta
       name="description"
-      content="Cecilio Lopez — growth, leadership, and becoming your best self. What I'm building and reflections."
+      content="Cecilio Lopez: educator, former Catholic missionary with Saint Paul's Outreach, M.Ed. at Boston College. Curriculum, leadership, and faith-informed habit."
     />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
 
     <header class="site-header">
-      <div class="container">
+      <div class="container header__inner">
+        <a class="brand" href="#top">Cecilio Lopez</a>
         <nav class="nav" aria-label="Primary">
-          <a class="brand" href="#top">Cecilio Lopez</a>
-          <div class="nav-links">
-            <a href="#about">About</a>
-            <a href="#building">What I’m Building</a>
-            <a href="#reflections">Reflections</a>
-          </div>
+          <a href="#about">About</a>
+          <a href="#values">Values</a>
+          <a href="#current-work">Work</a>
+          <a href="#building">Projects</a>
+          <a href="#reflections">Writing</a>
         </nav>
       </div>
     </header>
 
-    <main id="main">
+    <main id="main" class="page">
       <section class="hero" id="top" aria-labelledby="hero-title">
-        <div class="hero__backdrop" aria-hidden="true">
-          <span class="hero__orb hero__orb--a"></span>
-          <span class="hero__orb hero__orb--b"></span>
-        </div>
-        <div class="container hero__content">
-          <p class="eyebrow">Personal site</p>
-          <h1 id="hero-title">Cecilio Lopez</h1>
-          <p class="hero__line">
-            I believe in <strong>growth</strong>, <strong>leadership</strong>, and the quiet discipline of becoming
-            <strong>your best self</strong> — one choice at a time.
-          </p>
-          <p class="lead">
-            I build thoughtfully, lead with empathy, and use reflection as a compass. This space is home to what
-            I’m learning, making, and thinking about along the way.
-          </p>
-          <div class="hero-cta">
-            <a class="button" href="#reflections">Read reflections</a>
-            <a class="button button-secondary" href="#building">See what I’m building</a>
+        <div class="hero__wash" aria-hidden="true"></div>
+        <div class="container hero__wrap">
+          <div class="hero__visual">
+            <div class="profile-ring">
+              <div class="profile-ring__inner">
+                <span class="profile-ring__initials" aria-hidden="true">CL</span>
+              </div>
+            </div>
+            <p class="profile-ring__caption">Photo coming soon</p>
           </div>
-        </div>
-      </section>
-
-      <section class="section section--lift" id="about" aria-labelledby="about-heading">
-        <div class="container">
-          <div class="section__panel">
-            <h2 id="about-heading">About</h2>
-            <p class="section__lead">
-              I’m Cecilio — curious by default, calm under pressure, and always practicing. I care about leading with
-              clarity, listening well, and becoming a little better each day.
+          <div class="hero__copy">
+            <p class="eyebrow">Educator · Formation · Leadership</p>
+            <h1 id="hero-title" class="hero__title">
+              <span class="hero__name">Cecilio Lopez</span>
+            </h1>
+            <p class="hero__tagline">
+              I care about faith-informed habit, clear thinking, and work that serves real people. Not platforms.
             </p>
-            <p class="muted">
-              I’m drawn to work that’s thoughtful, human, and built to last.
+            <p class="hero__lead">
+              I spent time as a Catholic missionary with Saint Paul’s Outreach. I’m finishing my M.Ed. in Curriculum and
+              Instruction at Boston College this spring. I’m building this site as a home for writing, teaching, and
+              eventually one-on-one work with leaders who want depth without the noise.
             </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section--lift" id="building" aria-labelledby="building-heading">
-        <div class="container">
-          <div class="section__panel">
-            <h2 id="building-heading">What I’m Building</h2>
-            <p class="muted section__intro">
-              Projects and experiments I’m nurturing — small steps toward something meaningful.
-            </p>
-            <ul class="list">
-              <li>
-                <span class="pill">Now</span>
-                A clearer personal presence online — minimal, honest, and easy to iterate.
-              </li>
-              <li>
-                <span class="pill">Next</span>
-                A simple “now” page to stay accountable to priorities and rhythm.
-              </li>
-              <li>
-                <span class="pill">Learn</span>
-                A bite-sized tutorial or tool that teaches one idea really well.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section--lift" id="reflections" aria-labelledby="reflections-heading">
-        <div class="container">
-          <div class="section__panel">
-            <h2 id="reflections-heading">Reflections</h2>
-            <p class="muted section__intro">Notes from the margins — essays and ideas worth revisiting.</p>
-            <div class="card-grid">
-              <article class="card">
-                <h3>
-                  <a href="#" aria-label="Read reflection: Lessons from slowing down">Lessons from slowing down</a>
-                </h3>
-                <p>When pace drops, clarity often rises — and leadership starts to feel human again.</p>
-                <p class="meta">Coming soon</p>
-              </article>
-              <article class="card">
-                <h3>
-                  <a href="#" aria-label="Read reflection: Consistency beats intensity">Consistency beats intensity</a>
-                </h3>
-                <p>Small repeatable actions compound. The goal isn’t spectacle — it’s showing up.</p>
-                <p class="meta">Coming soon</p>
-              </article>
-              <article class="card">
-                <h3>
-                  <a href="#" aria-label="Read reflection: Design as a kindness">Design as a kindness</a>
-                </h3>
-                <p>Calm interfaces, generous spacing, and fewer decisions for the people you serve.</p>
-                <p class="meta">Coming soon</p>
-              </article>
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="#values">What I stand for</a>
+              <a class="btn btn--quiet" href="#reflections">Read the journal</a>
             </div>
           </div>
         </div>
       </section>
+
+      <div class="sections">
+        <section class="section section--surface" id="about" aria-labelledby="about-heading">
+          <div class="container section__grid">
+            <header class="section__meta">
+              <span class="section__index">01</span>
+              <div>
+                <p class="section__label">Introduction</p>
+                <h2 id="about-heading" class="section__heading">About</h2>
+              </div>
+            </header>
+            <div class="section__content prose">
+              <p class="prose__lead">
+                I’m Cecilio. I’m curious, I like a steady pace, and I’m still learning how to show up well. Mission taught
+                me that formation happens in ordinary fidelity: you show up, you tell the truth, and you stay kind when
+                it costs you something.
+              </p>
+              <p>
+                Saint Paul’s Outreach formed how I listen and how I serve. At Boston College I’ve leaned into curriculum
+                and instruction: how ideas get ordered, how students get treated with dignity, and how small habits turn
+                into culture over time.
+              </p>
+              <p class="prose__quiet">
+                I want my teaching and leadership to feel human, careful, and built to last.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="values" aria-labelledby="values-heading">
+          <div class="section__hairline" aria-hidden="true"></div>
+          <div class="container section__grid">
+            <header class="section__meta">
+              <span class="section__index">02</span>
+              <div>
+                <p class="section__label">Foundations</p>
+                <h2 id="values-heading" class="section__heading">Values</h2>
+              </div>
+            </header>
+            <div class="section__content">
+              <p class="section__dek muted">
+                When things get loud, I come back to these three. They’re the backbone of how I want to coach and lead
+                down the road.
+              </p>
+              <ul class="pillars">
+                <li class="pillar">
+                  <p class="pillar__title">Formation</p>
+                  <p class="pillar__text">
+                    Character is trained, not wished into place. I want spaces where virtue can grow slowly, even when no
+                    one is clapping.
+                  </p>
+                </li>
+                <li class="pillar">
+                  <p class="pillar__title">Discipline</p>
+                  <p class="pillar__text">
+                    Freedom needs fences. Prayer, study, rest, small repeats: they keep leadership from turning into a
+                    performance.
+                  </p>
+                </li>
+                <li class="pillar">
+                  <p class="pillar__title">Service</p>
+                  <p class="pillar__text">
+                    If I have any authority, it should widen the circle for someone else. Classroom or neighborhood, same
+                    rule.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section--surface" id="current-work" aria-labelledby="work-heading">
+          <div class="container section__grid">
+            <header class="section__meta">
+              <span class="section__index">03</span>
+              <div>
+                <p class="section__label">Now</p>
+                <h2 id="work-heading" class="section__heading">Current Work</h2>
+              </div>
+            </header>
+            <div class="section__content">
+              <div class="work-card">
+                <p class="work-card__lead">
+                  Right now I’m closing out grad school and pointing toward teaching, curriculum design, and honest
+                  conversations with leaders who care about integrity, not just outcomes.
+                </p>
+                <ul class="work-card__list">
+                  <li>
+                    <span class="work-card__mark" aria-hidden="true"></span>
+                    Finishing my M.Ed. in Curriculum and Instruction at Boston College (May).
+                  </li>
+                  <li>
+                    <span class="work-card__mark" aria-hidden="true"></span>
+                    Building lessons and materials that are clear, rigorous, and respectful of the person in the chair.
+                  </li>
+                  <li>
+                    <span class="work-card__mark" aria-hidden="true"></span>
+                    Laying groundwork for writing and coaching that connects missionary realism with classroom craft.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="building" aria-labelledby="building-heading">
+          <div class="section__hairline" aria-hidden="true"></div>
+          <div class="container section__grid">
+            <header class="section__meta">
+              <span class="section__index">04</span>
+              <div>
+                <p class="section__label">Building</p>
+                <h2 id="building-heading" class="section__heading">Projects</h2>
+              </div>
+            </header>
+            <div class="section__content">
+              <p class="section__dek muted">
+                A few concrete threads. Public enough that I have to mean it, small enough that I can finish them well.
+              </p>
+              <div class="project-cards">
+                <article class="project-card">
+                  <p class="project-card__phase">Now</p>
+                  <h3 class="project-card__title">Personal presence</h3>
+                  <p class="project-card__desc">
+                    A simple home online: a true story, a few clear offers over time, and room to grow without redoing
+                    everything every month.
+                  </p>
+                </article>
+                <article class="project-card">
+                  <p class="project-card__phase">Next</p>
+                  <h3 class="project-card__title">“Now” page</h3>
+                  <p class="project-card__desc">
+                    A public snapshot of priorities, books, prayer, and work so friends (and future collaborators) know
+                    where I actually am.
+                  </p>
+                </article>
+                <article class="project-card">
+                  <p class="project-card__phase">Learn</p>
+                  <h3 class="project-card__title">One-idea teaching tool</h3>
+                  <p class="project-card__desc">
+                    One tight resource that teaches a single curriculum idea cleanly. Proof that clarity can still be
+                    generous.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section--journal" id="reflections" aria-labelledby="reflections-heading">
+          <div class="container">
+            <header class="journal__head">
+              <div class="journal__titles">
+                <span class="section__index section__index--inline">05</span>
+                <div>
+                  <p class="section__label">Journal</p>
+                  <h2 id="reflections-heading" class="section__heading">Reflections</h2>
+                </div>
+              </div>
+              <p class="journal__dek">
+                Short pieces where faith, teaching, and leadership meet. I write for people who want a steadier inner
+                life and a kinder public one. No hot takes, just notes from the road.
+              </p>
+            </header>
+
+            <div class="journal__featured">
+              <blockquote class="pullquote">
+                <p>
+                  “Leadership without silence becomes theater. Silence without love becomes escape. The work is learning
+                  both.”
+                </p>
+                <footer>A line I keep returning to</footer>
+              </blockquote>
+            </div>
+
+            <div class="journal-grid">
+              <article class="journal-card">
+                <p class="journal-card__cat">Mission</p>
+                <h3 class="journal-card__title">
+                  <a href="#">What missionary life taught me about pace</a>
+                </h3>
+                <p class="journal-card__excerpt">
+                  Urgent isn’t the same as important. Some things ripen slowly, including the parts of you no one sees.
+                </p>
+                <p class="journal-card__foot"><span>Essay</span> · Coming soon</p>
+              </article>
+              <article class="journal-card">
+                <p class="journal-card__cat">Teaching</p>
+                <h3 class="journal-card__title">
+                  <a href="#">Curriculum as hospitality</a>
+                </h3>
+                <p class="journal-card__excerpt">
+                  A syllabus can welcome people in or put them on guard. Tone and sequence matter, especially before the
+                  first grade lands.
+                </p>
+                <p class="journal-card__foot"><span>Essay</span> · Coming soon</p>
+              </article>
+              <article class="journal-card">
+                <p class="journal-card__cat">Leadership</p>
+                <h3 class="journal-card__title">
+                  <a href="#">Consistency beats intensity</a>
+                </h3>
+                <p class="journal-card__excerpt">
+                  Big swings get attention. Small repeats build trust: in prayer, in prep, in keeping your word when no
+                  one’s watching.
+                </p>
+                <p class="journal-card__foot"><span>Notes</span> · Coming soon</p>
+              </article>
+              <article class="journal-card">
+                <p class="journal-card__cat">Interior life</p>
+                <h3 class="journal-card__title">
+                  <a href="#">Lessons from slowing down</a>
+                </h3>
+                <p class="journal-card__excerpt">
+                  When the tempo drops, you hear what you’ve been avoiding. Sometimes that’s where courage starts.
+                </p>
+                <p class="journal-card__foot"><span>Essay</span> · Coming soon</p>
+              </article>
+              <article class="journal-card">
+                <p class="journal-card__cat">Craft</p>
+                <h3 class="journal-card__title">
+                  <a href="#">Design as a kindness</a>
+                </h3>
+                <p class="journal-card__excerpt">
+                  Calm spacing and plain language matter, whether you’re building a slide deck or trying to live with less
+                  clutter.
+                </p>
+                <p class="journal-card__foot"><span>Essay</span> · Coming soon</p>
+              </article>
+              <article class="journal-card">
+                <p class="journal-card__cat">Formation</p>
+                <h3 class="journal-card__title">
+                  <a href="#">Small rules that save your week</a>
+                </h3>
+                <p class="journal-card__excerpt">
+                  Boundaries aren’t cynicism. They’re love with edges. A few clear rules protect depth when noise is cheap.
+                </p>
+                <p class="journal-card__foot"><span>Notes</span> · Coming soon</p>
+              </article>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
 
     <footer class="site-footer">
-      <div class="container">
-        <p class="muted">Built by Cecilio Lopez</p>
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <p class="footer__name">Cecilio Lopez</p>
+          <p class="footer__tagline">Teaching · Curriculum · Leadership rooted in faith</p>
+        </div>
+        <div class="footer__meta">
+          <p class="footer__credit">Built by Cecilio Lopez</p>
+          <p class="footer__year">© <span id="year"></span></p>
+        </div>
       </div>
     </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
