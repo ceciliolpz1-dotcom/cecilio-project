@@ -496,6 +496,65 @@ a:hover {
   color: var(--muted);
 }
 
+/* Faith-based consulting */
+.consult-intro {
+  margin-bottom: clamp(2rem, 5vw, 2.75rem);
+}
+
+.consult-intro.prose p:last-child {
+  margin-bottom: 0;
+}
+
+.consult-cards {
+  display: grid;
+  gap: var(--space-md);
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .consult-cards {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--space-lg);
+  }
+}
+
+.consult-card {
+  margin: 0;
+  padding: clamp(1.35rem, 3vw, 1.65rem) clamp(1.35rem, 3vw, 1.5rem);
+  border-radius: var(--r-lg);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: var(--shadow-1);
+  transition:
+    transform var(--dur) var(--ease-out),
+    box-shadow var(--dur) var(--ease-out),
+    border-color var(--dur) var(--ease-out);
+}
+
+.consult-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(139, 115, 85, 0.22);
+  box-shadow: var(--shadow-3);
+}
+
+.consult-card__title {
+  margin: 0 0 var(--space-sm);
+  font-family: var(--font-display);
+  font-size: clamp(1.2rem, 2.2vw, 1.35rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: var(--leading-snug);
+  color: var(--ink);
+}
+
+.consult-card__text {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.68;
+  color: var(--muted);
+}
+
 /* Pillars */
 .pillars {
   margin: 0;
@@ -946,6 +1005,8 @@ a:hover {
     scroll-behavior: auto;
   }
 
+  .consult-card,
+  .consult-card:hover,
   .pillar,
   .pillar:hover,
   .work-card,
